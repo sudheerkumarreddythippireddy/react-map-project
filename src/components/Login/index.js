@@ -63,7 +63,7 @@ const Button = styled.button`
     background-color: #0056b3;
   }
 `;
-
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
 class Login extends Component {
   state = {
     username: "",
@@ -83,7 +83,7 @@ class Login extends Component {
     const { username, password } = this.state;
     const { history } = this.props;
     try {
-      const response = await axios.post("http://localhost:5000/login", { username, password });
+      const response = await axios.post(`${API_URL}/login`, { username, password });
       localStorage.setItem("token", response.data.token);
       history.push("/dashboard");
       window.location.reload();
