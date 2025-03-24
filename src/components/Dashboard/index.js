@@ -60,7 +60,6 @@ class Dashboard extends Component {
             axios
               .get("http://localhost:5000/map", { headers: { Authorization: token } })
               .then((res) => console.log("Dashboard logged"))
-              .catch(() => alert("User not logged in"));
     }
 
     handleCardClick = () => {
