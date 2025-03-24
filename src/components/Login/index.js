@@ -63,7 +63,7 @@ const Button = styled.button`
     background-color: #0056b3;
   }
 `;
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:5000";
 class Login extends Component {
   state = {
     username: "",
