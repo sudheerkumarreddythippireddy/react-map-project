@@ -73,3 +73,59 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Figma Link ####
 
 SYNCTHREAD_ASSIGNMENT: https://www.figma.com/design/HP6Rai0GiycQzeMfSjykkE/SYNCTHREAD_ASSIGNMENT?node-id=0-1&t=0jL01RtUic49KFPx-1
+
+
+<!-- axios (^1.8.4) -->
+
+A promise-based HTTP client for making API requests from the browser or Node.js.
+
+Used for fetching data from a backend or external APIs.
+
+<!-- bootstrap (^5.3.3) -->
+
+A popular CSS framework for designing responsive and mobile-first web pages.
+
+Provides pre-styled components like buttons, grids, forms, and modals.
+
+<!-- js-cookie (^3.0.5) -->
+
+A lightweight JavaScript library for managing browser cookies.
+
+Used for handling authentication tokens, user preferences, or session data.
+
+<!-- leaflet (^1.9.4) -->
+
+A powerful JavaScript library for interactive maps.
+
+Used for rendering maps and handling geospatial data.
+
+<!-- react (^19.0.0) -->
+
+A JavaScript library for building user interfaces with reusable components.
+
+The core library for creating React applications.
+
+<!-- react-dom (^19.0.0) -->
+
+Provides DOM-specific methods for React applications.
+
+Ensures that React components are correctly mounted and updated in the browser.
+
+
+<!-- react-router-dom (^5.2.0) -->
+
+A library for handling client-side routing in React applications.
+
+Used for navigation between different views/pages in a single-page application (SPA).
+
+<!-- react-scripts (5.0.1) -->
+
+Provides scripts and configurations for Create React App (CRA).
+
+Handles Webpack, Babel, ESLint, and other build-related settings.
+
+<!-- styled-components (^6.1.16) -->
+
+A CSS-in-JS library for styling React components dynamically.
+
+Allows defining scoped styles directly within component files.
